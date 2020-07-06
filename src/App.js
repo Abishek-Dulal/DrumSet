@@ -28,9 +28,9 @@ let NameDisplay = styled.div`
 
 export default function App() {
   let [power, setPower] = useState(true);
-  let [instrument, setInstrument] = useState("drum");
+  let [instrument, setInstrument] = useState("piano");
   let [value, setValue] = useState();
-  let [volume, setVolume] = useState(1);
+  let [volume, setVolume] = useState(100);
 
   let handleMusic = index => {
     if (power) {
